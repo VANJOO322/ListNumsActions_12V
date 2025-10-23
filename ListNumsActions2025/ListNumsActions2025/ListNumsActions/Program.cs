@@ -55,9 +55,14 @@
                         nums.Add(result);    
                         break;
 
-                    case "countodds":
+                    case "odds":
                         int cods = nums.Count(x => x % 2 != 0);
                         Console.WriteLine(cods);
+                        break;
+
+                    case "sumall":
+                        int sum = nums.Sum();
+                        Console.WriteLine(sum);
                         break;
 
                     default:
