@@ -55,6 +55,11 @@
                         nums.Add(result);    
                         break;
 
+                    case "countodds":
+                        int cods = nums.Count(x => x % 2 != 0);
+                        Console.WriteLine(cods);
+                        break;
+
                     default:
                         break;
                 }
