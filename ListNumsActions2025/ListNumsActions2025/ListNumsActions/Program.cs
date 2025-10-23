@@ -1,4 +1,4 @@
-﻿namespace ListNumsActions
+﻿        namespace ListNumsActions
 {
     internal class Program
     {
@@ -22,9 +22,15 @@
                     case "print":
                         Console.WriteLine(string.Join(" ", nums));
                         break;
-                    case "contains":
-                        
-                        //TODO
+                    case "contains": int element= int.Parse(cmd[1]);
+                        if (element.Contains(nums))
+                        {
+                            Console.Writeline("YES");
+                        }
+                        else
+                        {
+                            Console.Writeline("NO");
+                        }
                         break;
 
 
