@@ -23,13 +23,13 @@
                         Console.WriteLine(string.Join(" ", nums));
                         break;
                     case "contains": int element= int.Parse(cmd[1]);
-                        if (element.Contains(nums))
+                        if (nums.Contains(element))
                         {
-                            Console.WriteLine("YES");
+                            Console.WriteLine("NO");
                         }
                         else
                         {
-                            Console.WriteLine("NO");
+                            Console.WriteLine("YES");
                         }
                         break;
                      
@@ -47,12 +47,13 @@
                         }
                         break;
 
-                    case "countl":
-                        int limit = int.Parse(cmd[1]);
-                        int countL = nums.Count(x => x > limit);
-                        Console.WriteLine(countL);
-                        break;
+                    case "add":
+                        int num1 = int.Parse(cmd[1]);
 
+                        int num2 = int.Parse(cmd[2]);
+                        int result = num1 + num2;
+                        nums.Add(result);    
+                        break;
 
                     default:
                         break;
