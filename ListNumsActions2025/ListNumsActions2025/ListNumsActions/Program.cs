@@ -55,6 +55,7 @@
                         nums.Add(result);    
                         break;
 
+
                     case "odds":
                         int cods = nums.Count(x => x % 2 != 0);
                         Console.WriteLine(cods);
@@ -64,6 +65,14 @@
                         int sum = nums.Sum();
                         Console.WriteLine(sum);
                         break;
+
+
+                    case "countl":
+                        int countNum = int.Parse(cmd[1]);
+                        int count = nums.Count(x => x > countNum);
+                        Console.WriteLine(count);
+                        break;
+                      
 
                     default:
                         break;
