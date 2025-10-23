@@ -34,12 +34,20 @@
                         break;
                      
                     case "del":
-                        int elementToDelete = int.Parse(cmd[1]);
-                        nums.Remove(elementToDelete); 
+                        int elementd = int.Parse(cmd[1]);
+                        nums.Remove(elementd); 
                         break;
 
 
-                    //TO DO
+                    case "remove":
+                        int indexr = int.Parse(cmd[1]);
+                        if (indexr >= 0 && indexr < nums.Count)
+                        {
+                            nums.RemoveAt(indexr);
+                        }
+                        break;
+
+
                     default:
                         break;
                 }
