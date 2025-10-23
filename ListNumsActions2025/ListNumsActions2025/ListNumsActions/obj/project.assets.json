@@ -14,11 +14,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
+      "projectUniqueName": "C:\\Users\\Student\\Desktop\\Ivan 12v\\GitHub\\ListNumsActions_12V\\ListNumsActions2025\\ListNumsActions2025\\ListNumsActions\\ListNumsActions.csproj",
+      "projectName": "ListNumsActions",
+      "projectPath": "C:\\Users\\Student\\Desktop\\Ivan 12v\\GitHub\\ListNumsActions_12V\\ListNumsActions2025\\ListNumsActions2025\\ListNumsActions\\ListNumsActions.csproj",
+      "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Student\\Desktop\\Ivan 12v\\GitHub\\ListNumsActions_12V\\ListNumsActions2025\\ListNumsActions2025\\ListNumsActions\\obj\\",
+=======
       "projectUniqueName": "C:\\Users\\Student\\Music\\Aleksandra12v\\12В-1гр. УП СИ\\ListNumsActions_12V\\ListNumsActions2025\\ListNumsActions2025\\ListNumsActions\\ListNumsActions.csproj",
       "projectName": "ListNumsActions",
       "projectPath": "C:\\Users\\Student\\Music\\Aleksandra12v\\12В-1гр. УП СИ\\ListNumsActions_12V\\ListNumsActions2025\\ListNumsActions2025\\ListNumsActions\\ListNumsActions.csproj",
       "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Student\\Music\\Aleksandra12v\\12В-1гр. УП СИ\\ListNumsActions_12V\\ListNumsActions2025\\ListNumsActions2025\\ListNumsActions\\obj\\",
+>>>>>>> e8691966cfc7db06e809d98296945065e1c7a461
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -8,6 +8,10 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ListNumsActions
+<<<<<<< HEAD
+build_property.ProjectDir = C:\Users\Student\Desktop\Ivan 12v\GitHub\ListNumsActions_12V\ListNumsActions2025\ListNumsActions2025\ListNumsActions\
+=======
 build_property.ProjectDir = C:\Users\Student\Music\Aleksandra12v\12В-1гр. УП СИ\ListNumsActions_12V\ListNumsActions2025\ListNumsActions2025\ListNumsActions\
+>>>>>>> e8691966cfc7db06e809d98296945065e1c7a461
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

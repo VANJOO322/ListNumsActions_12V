@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
+  "dgSpecHash": "AF8xJlk1NNse3APwhRg8QKzy8dVPE1RafShlatlCMFwgFa4X13QsDW0LBPPZ1Ln4zqFTCz2d1GqsIjJykEBi6g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Student\\Desktop\\Ivan 12v\\GitHub\\ListNumsActions_12V\\ListNumsActions2025\\ListNumsActions2025\\ListNumsActions\\ListNumsActions.csproj",
+=======
   "dgSpecHash": "tI1oamwSTAC9GYfAhfvqZvtVUmre1M4LjdMgSUQxbQ+iiGWUB26IcKNTmb2HCC2ggkBKm4fSvfKO0GB+5haQYg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Student\\Music\\Aleksandra12v\\12В-1гр. УП СИ\\ListNumsActions_12V\\ListNumsActions2025\\ListNumsActions2025\\ListNumsActions\\ListNumsActions.csproj",
+>>>>>>> e8691966cfc7db06e809d98296945065e1c7a461
   "expectedPackageFiles": [],
   "logs": []
 }
