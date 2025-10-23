@@ -25,11 +25,11 @@
                     case "contains": int element= int.Parse(cmd[1]);
                         if (element.Contains(nums))
                         {
-                            Console.Writeline("YES");
+                            Console.WriteLine("YES");
                         }
                         else
                         {
-                            Console.Writeline("NO");
+                            Console.WriteLine("NO");
                         }
                         break;
                      
@@ -45,6 +45,12 @@
                         {
                             nums.RemoveAt(indexr);
                         }
+                        break;
+
+                    case "countl":
+                        int limit = int.Parse(cmd[1]);
+                        int countL = nums.Count(x => x > limit);
+                        Console.WriteLine(countL);
                         break;
 
 
