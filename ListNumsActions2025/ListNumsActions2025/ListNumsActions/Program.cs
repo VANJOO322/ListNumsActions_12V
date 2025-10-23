@@ -72,8 +72,11 @@
                         int count = nums.Count(x => x > countNum);
                         Console.WriteLine(count);
                         break;
-                      
 
+                    case "evens":
+                        int numEven = nums.Count(x => x % 2 == 0);
+                        Console.WriteLine(numEven);
+                        break;
                     default:
                         break;
                 }
