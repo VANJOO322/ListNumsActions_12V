@@ -4,12 +4,5 @@
   "success": true,
   "projectFilePath": "C:\\Users\\Student\\Music\\Aleksandra12v\\12В-1гр. УП СИ\\ListNumsActions_12V\\ListNumsActions2025\\ListNumsActions2025\\ListNumsActions\\ListNumsActions.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\Student\\Music\\Aleksandra12v\\12В-1гр. УП СИ\\ListNumsActions_12V\\ListNumsActions2025\\ListNumsActions2025\\ListNumsActions\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }
